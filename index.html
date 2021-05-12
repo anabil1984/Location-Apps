@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaflet App</title>
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/e7eb63f665.js" crossorigin="anonymous"></script>
+    <!--Font Awesome-->
+
+    <!--My CSS-->
+        <link rel="stylesheet" href="style.css">
+    <!--leaflet -->
+        <link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+        <script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+    <!--leaflet -->
+    
+    <!--Routing-->
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+       <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+       <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+       <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+    <!--Routing-->
+    
+  <!--Geo-Coding-->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+  <script src="https://rawgit.com/k4r573n/leaflet-control-osm-geocoder/master/Control.OSMGeocoder.js"></script>
+  <link rel="stylesheet" href="https://rawgit.com/k4r573n/leaflet-control-osm-geocoder/master/Control.OSMGeocoder.css" />
+  <!--Geo-Coding-->
+
+ <!--Location-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js" charset="utf-8"></script>
+ <!--Location-->
+
+<!--Leaflet Draw API reference-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.4.2/leaflet.draw.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.4.2/leaflet.draw.js"></script>
+<!--Leaflet Draw API reference-->
+         
+
+</head>
+<body>
+  
+    <div id="container">
+        <div id="map"></div>
+        <button id="routing" onClick="handleRouting()" > <i class="fas fa-route fa-1g"></i></button>
+        <!-- <a href='#' id='geolocate' onClick="getLocation()"><img class="myLocation" src="./assets//location.jpg"></a>  -->
+    </div>
+    
+   
+    <script src="script.js"></script>
+</body>
+</html>
